@@ -1,0 +1,93 @@
+﻿body
+{
+background-color: #FFFFFF;
+}
+
+form 
+{
+margin:70px auto;
+width:360px;
+color: light black;
+}
+
+p[value="Register"]
+{
+	text-align-last:right;
+}
+input
+{
+padding: 8px;
+font-size:inherit;
+}
+
+input[type="text"]
+{
+display="block";
+margin-bottom: 20px;
+width:100%;
+}
+
+input[type="email"]
+{
+display="block";
+margin-bottom:20px;
+width:100%;
+border:light black;
+}
+
+input[type="password"]
+{
+<i class="fas fa-lock"></i>
+display="block";
+margin-bottom:20px;
+width: 100%;
+border:light black;
+
+}
+
+input[value="Sign in"]
+{
+display="block";
+background-color:skyblue;
+color:white;
+width:90% left-side;
+border: 2px lightblue;
+}
+
+input[value="SIGN IN"]
+{
+display="block";
+background-color:skyblue;
+color:white;
+border: 2px lightblue;
+}
+
+input[value="f"]
+{
+display="block";
+margin-botton:20px;
+width:100%;
+color:white;
+background-color:darkblue;
+border: 2px blue;
+}
+
+input[value="g"]
+{
+display="block";
+width:100%;
+margin-bottom:20px;
+background-color:red;
+color:white;
+border: 2px solid red;
+}
+
+input[value="< EPAM LOGIN >"]
+{
+display="block";
+width:100%;
+margin-block:20px;
+background-color:green;
+color:white;
+border: 2px lime;
+} 
